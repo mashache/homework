@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Статистика</title>
+	<h2>Статистика: </h2>
+</head>
+<body>
+<h4>Пять ... (носок):</h4>
+<ul>
+	{% for a, b in five.items() %}
+		<li>{{ a }} - {{ b }}</li>
+	{% endfor %}	
+</ul>
+<h4>Шесть ... (чулок):</h4>
+<ul>
+	{% for a, b in six.items() %}
+		<li>{{ a }} - {{ b }}</li>
+	{% endfor %}	
+</ul>
+<h4>Семь ... (колготки):</h4>
+<ul>
+	{% for a, b in seven.items() %}
+		<li>{{ a }} - {{ b }}</li>
+	{% endfor %}	
+</ul>
+<h4>Восемь ... (джинсы):</h4>
+<ul>
+	{% for a, b in eight.items() %}
+		<li>{{ a }} - {{ b }}</li>
+	{% endfor %}	
+</ul>
+<h4>Девять ... (килограмм):</h4>
+<ul>
+	{% for a, b in nine.items() %}
+		<li>{{ a }} - {{ b }}</li>
+	{% endfor %}	
+</ul>
+<h4>Пол респондентов:</h4>
+<ul>
+	{% for a, b in sex.items() %}
+		<li>{{ a }} - {{ b }}</li>
+	{% endfor %}	
+</ul>
+<h4>Возраст респондентов:</h4>
+<ul>
+	{% for a, b in age.items() %}
+		<li>{{ a }} - {{ b }}</li>
+	{% endfor %}	
+</ul>
+<h4>Место жительства респондентов:</h4>
+<ul>
+	{% for a, b in town.items() %}
+		<li>{{ a }} - {{ b }}</li>
+	{% endfor %}	
+</ul>
+</body>
+</html>
