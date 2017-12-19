@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <title>Тест</title>
+	<h1 class="text-center">Ответы на тест</h1>
+	<style>
+	p {
+	text-indent: 20px;
+	}
+	</style>
+</head>
+<body>
+<div class="container bs-cont">
+<form method="POST">
+    <form action="">
+	<h3>Ваши ответы:</h3>
+    <p><b>1. Жел{{ one }}зо</b></p>
+	{% if one == "ѣ" %}
+		<p class="text-success">- Правильно!</p>
+	{% else %}
+		<p class="text-danger">- Неправильно:(</p>
+	{% endif %}
+	<p><b>2. Ав{{ two }}ню</b></p>
+	{% if two == "е" %}
+		<p class="text-success">- Правильно!</p>
+	{% else %}
+		<p class="text-danger">- Неправильно:(</p>
+	{% endif %}
+	<p><b>3. С{{ three }}веръ</b></p>
+	{% if three == "ѣ" %}
+		<p class="text-success">- Правильно!</p>
+	{% else %}
+		<p class="text-danger">- Неправильно:(</p>
+	{% endif %}
+	<p><b>4. П{{ four }}вунья</b></p>
+	{% if four == "ѣ" %}
+		<p class="text-success">- Правильно!</p>
+	{% else %}
+		<p class="text-danger">- Неправильно:(</p>
+	{% endif %}
+	<p><b>5. Р{{ five }}бёнокъ</b></p>
+	{% if five == "е" %}
+		<p class="text-success">- Правильно!</p>
+	{% else %}
+		<p class="text-danger">- Неправильно:(</p>
+	{% endif %}
+	<p><b>6. М{{ six }}тка</b></p>
+	{% if six == "ѣ" %}
+		<p class="text-success">- Правильно!</p>
+	{% else %}
+		<p class="text-danger">- Неправильно:(</p>
+	{% endif %}
+	<p><b>7. Л{{ seven }}кторъ</b></p>
+	{% if seven == "е" %}
+		<p class="text-success">- Правильно!</p>
+	{% else %}
+		<p class="text-danger">- Неправильно:(</p>
+	{% endif %}
+	<p><b>8. М{{ eight }}тла</b></p>
+	{% if eight == "е" %}
+		<p class="text-success">- Правильно!</p>
+	{% else %}
+		<p class="text-danger">- Неправильно:(</p>
+	{% endif %}
+	<p><b>9. Р{{ nine }}шать</b></p>
+	{% if nine == "ѣ" %}
+		<p class="text-success">- Правильно!</p>
+	{% else %}
+		<p class="text-danger">- Неправильно:(</p>
+	{% endif %}
+	<p><b>10.П{{ ten }}дагогъ</b></p>
+	{% if ten == "е" %}
+		<p class="text-success">- Правильно!</p>
+	{% else %}
+		<p class="text-danger">- Неправильно:(</p>
+	{% endif %}
+	<br>
+	<p><b>Вы ответили правильно на {{ c }} вопросов из 10.</b></p>
+	<br>
+
+</form>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
