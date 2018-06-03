@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <meta>
+      <creator>NetworkX 2.1</creator>
+      <lastmodified>03/06/2018</lastmodified>
+    </meta>
+    <nodes>
+      <node id="студент_NOUN" label="студент_NOUN" />
+      <node id="студентка_NOUN" label="студентка_NOUN" />
+      <node id="учиться_VERB" label="учиться_VERB" />
+      <node id="экзамен_NOUN" label="экзамен_NOUN" />
+      <node id="школьник_NOUN" label="школьник_NOUN" />
+      <node id="преподаватель_NOUN" label="преподаватель_NOUN" />
+      <node id="учитель_NOUN" label="учитель_NOUN" />
+      <node id="учебник_NOUN" label="учебник_NOUN" />
+      <node id="книга_NOUN" label="книга_NOUN" />
+      <node id="заочник_NOUN" label="заочник_NOUN" />
+      <node id="первокурсник_NOUN" label="первокурсник_NOUN" />
+      <node id="преподавать_VERB" label="преподавать_VERB" />
+      <node id="экзаменационный_ADJ" label="экзаменационный_ADJ" />
+      <node id="пересдавать_VERB" label="пересдавать_VERB" />
+      <node id="урок_NOUN" label="урок_NOUN" />
+      <node id="конспект_NOUN" label="конспект_NOUN" />
+    </nodes>
+    <edges>
+      <edge id="0" source="студент_NOUN" target="студентка_NOUN" />
+      <edge id="1" source="студент_NOUN" target="экзамен_NOUN" />
+      <edge id="2" source="студент_NOUN" target="школьник_NOUN" />
+      <edge id="3" source="студент_NOUN" target="преподаватель_NOUN" />
+      <edge id="4" source="студент_NOUN" target="учитель_NOUN" />
+      <edge id="5" source="студент_NOUN" target="заочник_NOUN" />
+      <edge id="6" source="студент_NOUN" target="первокурсник_NOUN" />
+      <edge id="7" source="студентка_NOUN" target="преподаватель_NOUN" />
+      <edge id="8" source="студентка_NOUN" target="заочник_NOUN" />
+      <edge id="9" source="студентка_NOUN" target="первокурсник_NOUN" />
+      <edge id="10" source="учиться_VERB" target="преподаватель_NOUN" />
+      <edge id="11" source="учиться_VERB" target="учитель_NOUN" />
+      <edge id="12" source="учиться_VERB" target="заочник_NOUN" />
+      <edge id="13" source="учиться_VERB" target="преподавать_VERB" />
+      <edge id="14" source="учиться_VERB" target="урок_NOUN" />
+      <edge id="15" source="экзамен_NOUN" target="преподаватель_NOUN" />
+      <edge id="16" source="экзамен_NOUN" target="первокурсник_NOUN" />
+      <edge id="17" source="экзамен_NOUN" target="экзаменационный_ADJ" />
+      <edge id="18" source="экзамен_NOUN" target="пересдавать_VERB" />
+      <edge id="19" source="экзамен_NOUN" target="урок_NOUN" />
+      <edge id="20" source="школьник_NOUN" target="преподаватель_NOUN" />
+      <edge id="21" source="школьник_NOUN" target="учитель_NOUN" />
+      <edge id="22" source="школьник_NOUN" target="заочник_NOUN" />
+      <edge id="23" source="школьник_NOUN" target="первокурсник_NOUN" />
+      <edge id="24" source="преподаватель_NOUN" target="учитель_NOUN" />
+      <edge id="25" source="преподаватель_NOUN" target="учебник_NOUN" />
+      <edge id="26" source="преподаватель_NOUN" target="заочник_NOUN" />
+      <edge id="27" source="преподаватель_NOUN" target="первокурсник_NOUN" />
+      <edge id="28" source="преподаватель_NOUN" target="преподавать_VERB" />
+      <edge id="29" source="преподаватель_NOUN" target="урок_NOUN" />
+      <edge id="30" source="учитель_NOUN" target="учебник_NOUN" />
+      <edge id="31" source="учитель_NOUN" target="преподавать_VERB" />
+      <edge id="32" source="учитель_NOUN" target="урок_NOUN" />
+      <edge id="33" source="учебник_NOUN" target="книга_NOUN" />
+      <edge id="34" source="учебник_NOUN" target="конспект_NOUN" />
+      <edge id="35" source="заочник_NOUN" target="первокурсник_NOUN" />
+      <edge id="36" source="заочник_NOUN" target="пересдавать_VERB" />
+      <edge id="37" source="преподавать_VERB" target="урок_NOUN" />
+    </edges>
+  </graph>
+</gexf>
